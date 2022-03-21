@@ -25,7 +25,7 @@ impl Server {
                         Ok(_ ) =>{
                             println!("{}",String::from_utf8_lossy(&buffer));
                         },
-                        Err(e) => println!("Failed Stram {}.",e)
+                        Err(e) => println!("Failed Stream {}.",e)
                     }
                 }, 
                 Err(err) => {
